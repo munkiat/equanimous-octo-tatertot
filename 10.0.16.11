@@ -1,6 +1,6 @@
 <VirtualHost *:80>
-        ServerName 10.0.16.11
-        ServerAlias 10.0.16.11
+        ServerName {{ip_address}}
+        ServerAlias {{ip_address}}
         WSGIScriptAlias / /var/www/production/gorengJumbo/wsgi.py
 	Alias /static/ /var/www/production/static/
 	<Location "/static/">
