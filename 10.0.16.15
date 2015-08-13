@@ -1,9 +1,0 @@
-<VirtualHost *:80>
-        ServerName 10.0.16.15
-        ServerAlias 10.0.16.15
-        WSGIScriptAlias / /var/www/production/gorengJumbo/wsgi.py
-	Alias /static/ /var/www/production/static/
-	<Location "/static/">
-		Options -Indexes
-	</Location>
-</VirtualHost>
